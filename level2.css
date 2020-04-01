@@ -1,0 +1,469 @@
+                                                                                                                                                                                .container {
+                                                                                                                                                                                    width: 950px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .container span {
+                                                                                                                                                                                    text-align: justify;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                p {
+                                                                                                                                                                                    text-align: left;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                span {
+                                                                                                                                                                                    text-align: left;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .navbar {
+                                                                                                                                                                                    font-size: small;
+                                                                                                                                                                                    float: right;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                nav a {
+                                                                                                                                                                                    color: #bbbbbb;
+                                                                                                                                                                                    padding: 5px;
+                                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                nav a:hover {
+                                                                                                                                                                                    text-decoration: none;
+                                                                                                                                                                                    font-weight: bold;
+                                                                                                                                                                                    color: black;
+                                                                                                                                                                                    Padding: 5px 5px 32px 5px;
+                                                                                                                                                                                    Border-bottom: 3px solid #9cc131;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .carousel-caption {
+                                                                                                                                                                                    font-size: 25px;
+                                                                                                                                                                                    color: #bbbbbb;
+                                                                                                                                                                                    font-family: Arial, Helvetica, sans-serif;
+                                                                                                                                                                                    background-color: #ffffff;
+                                                                                                                                                                                    width: 200px;
+                                                                                                                                                                                    height: 200px;
+                                                                                                                                                                                    padding: 20px;
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    left: 600px;
+                                                                                                                                                                                    top: 55px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .carousel-caption::after {
+                                                                                                                                                                                    content: '';
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    bottom: 0;
+                                                                                                                                                                                    right: 0;
+                                                                                                                                                                                    width: 0;
+                                                                                                                                                                                    height: 0;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 0 0 40px 40px;
+                                                                                                                                                                                    border-color: #b1d541 transparent transparent #b1d541;
+                                                                                                                                                                                    background-color: #545452;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .carousel-caption::before {
+                                                                                                                                                                                    content: '';
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    bottom: 0;
+                                                                                                                                                                                    right: 40px;
+                                                                                                                                                                                    /* Положение треугольника */
+                                                                                                                                                                                    /* Создание треугольника */
+                                                                                                                                                                                    width: 0;
+                                                                                                                                                                                    height: 0;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 0 0 40px 40px;
+                                                                                                                                                                                    border-color: #ffffff transparent transparent #fff;
+                                                                                                                                                                                    background-color: #f5f5f5;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .item {
+                                                                                                                                                                                    text-align: right;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .second_field {
+                                                                                                                                                                                    background-color: #f6f6f6;
+                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                    height: 315px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .Sqr1 {
+                                                                                                                                                                                    width: 190px;
+                                                                                                                                                                                    height: 190px;
+                                                                                                                                                                                    background-color: #9cc131;
+                                                                                                                                                                                    margin-left: 10px;
+                                                                                                                                                                                    margin-top: 63px;
+                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                    position: relative;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .Sqr {
+                                                                                                                                                                                    width: 190px;
+                                                                                                                                                                                    height: 190px;
+                                                                                                                                                                                    background-color: #9cc131;
+                                                                                                                                                                                    margin-left: 10px;
+                                                                                                                                                                                    margin-top: 63px;
+                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                    position: relative;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .Sqr::after {
+                                                                                                                                                                                    content: '';
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    bottom: 0;
+                                                                                                                                                                                    right: 0;
+                                                                                                                                                                                    /* Положение треугольника */
+                                                                                                                                                                                    /* Создание треугольника */
+                                                                                                                                                                                    width: 0;
+                                                                                                                                                                                    height: 0;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 40px 40px 0 0;
+                                                                                                                                                                                    border-color: #b1d541 transparent transparent #b1d541;
+                                                                                                                                                                                    background-color: #f6f6f6;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .Sqr::before {
+                                                                                                                                                                                    content: '';
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    bottom: 0;
+                                                                                                                                                                                    right: 40px;
+                                                                                                                                                                                    /* Положение треугольника */
+                                                                                                                                                                                    /* Создание треугольника */
+                                                                                                                                                                                    width: 0;
+                                                                                                                                                                                    height: 0;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 0 0 40px 40px;
+                                                                                                                                                                                    border-color: #9cc038 transparent transparent #9cc038;
+                                                                                                                                                                                    background-color: #97b836;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .second_field h3 {
+                                                                                                                                                                                    color: #ffffff;
+                                                                                                                                                                                    margin-left: 15px;
+                                                                                                                                                                                    margin: 15px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .second_field p {
+                                                                                                                                                                                    color: #ffffff;
+                                                                                                                                                                                    margin-left: 15px;
+                                                                                                                                                                                    font-size: 11px;
+                                                                                                                                                                                    margin: 15px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .Sqr1 img {
+                                                                                                                                                                                    width: 10px;
+                                                                                                                                                                                    height: 10px;
+                                                                                                                                                                                    float: right;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .third_field {
+                                                                                                                                                                                    background-color: #fff;
+                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                    height: 340px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                h3 {
+                                                                                                                                                                                    color: #000000;
+                                                                                                                                                                                    margin-left: 20px;
+                                                                                                                                                                                    margin: 15px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text {
+                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                    padding-left: 25px;
+                                                                                                                                                                                    width: 386px;
+                                                                                                                                                                                    height: 222px;
+                                                                                                                                                                                    margin: 10px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .third_field img {
+                                                                                                                                                                                    width: 386px;
+                                                                                                                                                                                    height: 222px;
+                                                                                                                                                                                    margin-left: 10px;
+                                                                                                                                                                                    margin: 10px;
+                                                                                                                                                                                    margin-top: 25px;
+                                                                                                                                                                                    vertical-align: top;
+                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                h4 {
+                                                                                                                                                                                    color: #9cc131;
+                                                                                                                                                                                    font-size: 17px;
+                                                                                                                                                                                    margin-left: 0;
+                                                                                                                                                                                    margin: 15px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .third_field p {
+                                                                                                                                                                                    font-size: 11px;
+                                                                                                                                                                                    margin: 15px;
+                                                                                                                                                                                    color: #bbbbbb;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .forth_field {
+                                                                                                                                                                                    background-image: url("img_0607.jpg");
+                                                                                                                                                                                    height: 430px;
+                                                                                                                                                                                    position: relative;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .forth_field p {
+                                                                                                                                                                                    font-size: 25px;
+                                                                                                                                                                                    color: #fff;
+                                                                                                                                                                                    font-family: Arial, Helvetica, sans-serif;
+                                                                                                                                                                                    background-color: #edc5a7 !important;
+                                                                                                                                                                                    width: 250px;
+                                                                                                                                                                                    height: 250px;
+                                                                                                                                                                                    padding-left: 20px;
+                                                                                                                                                                                    padding-top: 80px;
+                                                                                                                                                                                    margin: 10px;
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    top: 50%;
+                                                                                                                                                                                    transform: translate(0, -50%);
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .fifth_field {
+                                                                                                                                                                                    background-color: #fff;
+                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                    height: 390px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .fifth_field h3 {
+                                                                                                                                                                                    color: #000000;
+                                                                                                                                                                                    margin: 20px;
+                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .fifth_field span {
+                                                                                                                                                                                    width: 270px;
+                                                                                                                                                                                    height: 300px;
+                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .fifth_field a {
+                                                                                                                                                                                    width: 40px;
+                                                                                                                                                                                    height: 40px;
+                                                                                                                                                                                    float: left;
+                                                                                                                                                                                    margin: 0;
+                                                                                                                                                                                    padding: 0;
+                                                                                                                                                                                    background-color: #9cc131;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .fifth_field img {
+                                                                                                                                                                                    width: 10px;
+                                                                                                                                                                                    height: 10px;
+                                                                                                                                                                                    margin: 15px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .first img {
+                                                                                                                                                                                    width: 10px;
+                                                                                                                                                                                    height: 10px;
+                                                                                                                                                                                    margin: 15px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .first a {
+                                                                                                                                                                                    width: 40px;
+                                                                                                                                                                                    height: 40px;
+                                                                                                                                                                                    float: left;
+                                                                                                                                                                                    margin: 0;
+                                                                                                                                                                                    padding: 0;
+                                                                                                                                                                                    background-color: #f6f6f6;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .sixth_field {
+                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                    height: 390px;
+                                                                                                                                                                                    background-color: #9cc131;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-left {
+                                                                                                                                                                                    background-image: url("img6.jpg");
+                                                                                                                                                                                    width: 40%;
+                                                                                                                                                                                    height: 60%;
+                                                                                                                                                                                    display: block;
+                                                                                                                                                                                    float: left;
+                                                                                                                                                                                    padding-top: 10px;
+                                                                                                                                                                                    margin-top: 50px;
+                                                                                                                                                                                    margin-right: 20px;
+                                                                                                                                                                                    margin-left: 0;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-left h4 {
+                                                                                                                                                                                    font-size: 17px;
+                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                    padding-top: 10px;
+                                                                                                                                                                                    color: #000;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-left p {
+                                                                                                                                                                                    font-size: 13px;
+                                                                                                                                                                                    color: #000;
+                                                                                                                                                                                    margin-left: 0;
+                                                                                                                                                                                    margin: 20px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-left img {
+                                                                                                                                                                                    width: 15px;
+                                                                                                                                                                                    height: 15px;
+                                                                                                                                                                                    float: right;
+                                                                                                                                                                                    padding-bottom: 5px;
+                                                                                                                                                                                    padding-right: 5px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-right {
+                                                                                                                                                                                    background-color: #fff;
+                                                                                                                                                                                    width: 40%;
+                                                                                                                                                                                    height: 60%;
+                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                    padding-top: 10px;
+                                                                                                                                                                                    margin-top: 50px;
+                                                                                                                                                                                    margin-left: 20px;
+                                                                                                                                                                                    position: relative;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-right h4 {
+                                                                                                                                                                                    font-size: 17px;
+                                                                                                                                                                                    text-align: center;
+                                                                                                                                                                                    padding-top: 10px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-right p {
+                                                                                                                                                                                    font-size: 13px;
+                                                                                                                                                                                    color: #000;
+                                                                                                                                                                                    margin-left: 0;
+                                                                                                                                                                                    margin: 20px;
+                                                                                                                                                                                    text-align: left;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-right::after {
+                                                                                                                                                                                    content: '';
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    bottom: 0;
+                                                                                                                                                                                    right: 0;
+                                                                                                                                                                                    width: 0;
+                                                                                                                                                                                    height: 0;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 30px 30px 0 0;
+                                                                                                                                                                                    border-color: #b1d541 transparent transparent #b1d541;
+                                                                                                                                                                                    background-color: #9cc038;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .text-right::before {
+                                                                                                                                                                                    content: '';
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    bottom: 0;
+                                                                                                                                                                                    right: 30px;
+                                                                                                                                                                                    /* Положение треугольника */
+                                                                                                                                                                                    /* Создание треугольника */
+                                                                                                                                                                                    width: 0;
+                                                                                                                                                                                    height: 0;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 0 0 30px 30px;
+                                                                                                                                                                                    border-color: #fff transparent transparent #fff;
+                                                                                                                                                                                    background-color: #f5f5f5;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .seventh_field {
+                                                                                                                                                                                    background-color: #fff;
+                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                    height: 300px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .seventh_field img {
+                                                                                                                                                                                    width: 70px;
+                                                                                                                                                                                    height: 70px;
+                                                                                                                                                                                    float: left;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .seventh_field h3 {
+                                                                                                                                                                                    color: #fff;
+                                                                                                                                                                                    text-align: left;
+                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .seventh_field span {
+                                                                                                                                                                                    width: 250px;
+                                                                                                                                                                                    height: 250px;
+                                                                                                                                                                                    color: #fff;
+                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                    padding: 10px;
+                                                                                                                                                                                    padding-top: 30px;
+                                                                                                                                                                                    margin: 20px;
+                                                                                                                                                                                    margin-left: 0;
+                                                                                                                                                                                    background-color: #9cc131;
+                                                                                                                                                                                    position: relative;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .seventh_field span::after {
+                                                                                                                                                                                    content: '';
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    bottom: 0;
+                                                                                                                                                                                    right: 0;
+                                                                                                                                                                                    /* Положение треугольника */
+                                                                                                                                                                                    /* Создание треугольника */
+                                                                                                                                                                                    width: 0;
+                                                                                                                                                                                    height: 0;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 40px 40px 0 0;
+                                                                                                                                                                                    border-color: #b1d541 transparent transparent #b1d541;
+                                                                                                                                                                                    background-color: #fff;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                .seventh_field span::before {
+                                                                                                                                                                                    content: '';
+                                                                                                                                                                                    position: absolute;
+                                                                                                                                                                                    bottom: 0;
+                                                                                                                                                                                    right: 40px;
+                                                                                                                                                                                    /* Положение треугольника */
+                                                                                                                                                                                    /* Создание треугольника */
+                                                                                                                                                                                    width: 0;
+                                                                                                                                                                                    height: 0;
+                                                                                                                                                                                    border-style: solid;
+                                                                                                                                                                                    border-width: 0 0 40px 40px;
+                                                                                                                                                                                    border-color: #9cc038 transparent transparent #9cc038;
+                                                                                                                                                                                    background-color: #95b837;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                footer {
+                                                                                                                                                                                    background-color: #f6f6f6;
+                                                                                                                                                                                    width: 100%;
+                                                                                                                                                                                    height: 230px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                footer span {
+                                                                                                                                                                                    width: 20%;
+                                                                                                                                                                                    display: inline-block;
+                                                                                                                                                                                    padding: 10px;
+                                                                                                                                                                                    margin: 20px;
+                                                                                                                                                                                    margin-left: 0;
+                                                                                                                                                                                    padding-top: 35px;
+                                                                                                                                                                                    padding-left: 0;
+                                                                                                                                                                                    vertical-align: top;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                footer a {
+                                                                                                                                                                                    color: #bbbbbb;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                footer a:hover {
+                                                                                                                                                                                    color: #9cc131;
+                                                                                                                                                                                    text-decoration: underline;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                footer li {
+                                                                                                                                                                                    list-style-type: none;
+                                                                                                                                                                                    padding: 0;
+                                                                                                                                                                                    font-size: small;
+                                                                                                                                                                                    padding-left: 0;
+                                                                                                                                                                                    margin-left: 0;
+                                                                                                                                                                                    vertical-align: center;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                footer ul {
+                                                                                                                                                                                    padding-inline-start: 0;
+                                                                                                                                                                                    margin-left: 0;
+                                                                                                                                                                                    margin-top: 10px;
+                                                                                                                                                                                }
+                                                                                                                                                                                
+                                                                                                                                                                                ul img {
+                                                                                                                                                                                    width: 35px;
+                                                                                                                                                                                    height: 35px;
+                                                                                                                                                                                    padding: 0px;
+                                                                                                                                                                                    margin: 1.5px;
+                                                                                                                                                                                    background-color: #f6f6f6;
+                                                                                                                                                                                }
