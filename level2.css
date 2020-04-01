@@ -2,6 +2,10 @@
                                                                                                                                                                                     width: 950px;
                                                                                                                                                                                     float: center;
                                                                                                                                                                                 }
+
+                                                                                                                                                                                span{
+                                                                                                                                                                                    text-align: left;
+                                                                                                                                                                                }
                                                                                                                                                                                 
                                                                                                                                                                                 .navbar {
                                                                                                                                                                                     font-size: small;
