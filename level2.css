@@ -4,8 +4,11 @@
                                                                                                                                                                                 }
 
                                                                                                                                                                                 .container span{
-                                                                                                                                                                                    text-align: left;
+                                                                                                                                                                                    text-align: justify;
                                                                                                                                                                                 }
+
+span{ text-align: left;}
+p{text-align: left;}
                                                                                                                                                                                 
                                                                                                                                                                                 .navbar {
                                                                                                                                                                                     font-size: small;
